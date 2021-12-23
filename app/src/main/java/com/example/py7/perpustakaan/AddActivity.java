@@ -142,6 +142,7 @@ public class AddActivity extends AppCompatActivity {
     }
 
     private void getData() {
+        // Untuk mengambil data daftar peminjaman buku yang ada
 
         // Dapetin tanggal peminjaman
         Calendar c1 = Calendar.getInstance();
@@ -292,6 +293,7 @@ public class AddActivity extends AppCompatActivity {
     }
 
     public void insertAndUpdate(){
+        // Untuk melakukan proses insert atau update data
 
         // Mengambil data dari form yang disubmit
         String idpinjam = TxID.getText().toString().trim();
